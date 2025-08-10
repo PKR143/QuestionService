@@ -17,7 +17,7 @@ public class QuestionController {
 	QuestionService service;
 	
 	@GetMapping
-	public ResponseEntity<ResponseDto> getQuestion(){
+	public ResponseEntity<ResponseDto> getQuestion() throws Exception{
 		return service.getQuestion();
 	}
 	

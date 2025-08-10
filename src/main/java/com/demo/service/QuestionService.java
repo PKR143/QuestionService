@@ -8,6 +8,6 @@ import com.demo.dto.ResponseDto;
 @Service
 public interface QuestionService {
 	
-	ResponseEntity<ResponseDto> getQuestion();
+	ResponseEntity<ResponseDto> getQuestion() throws Exception;
 
 }
