@@ -10,7 +10,7 @@ import com.demo.dto.ResponseDto;
 import com.demo.service.QuestionService;
 
 @RestController
-@RequestMapping
+@RequestMapping("get-question")
 public class QuestionController {
 
 	@Autowired
